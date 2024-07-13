@@ -3,12 +3,11 @@ package framework.tests;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 import java.net.URI;
 
-public class BaseClass {
+public class BaseClass extends ExtendReportsDemo {
 
     AppiumDriver driver;
 
